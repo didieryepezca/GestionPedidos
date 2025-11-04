@@ -68,7 +68,7 @@ Sigue estos pasos para ejecutar la solución completa en tu entorno local.
     cd GestionPedidosDY
     dotnet run
     ```
-    La API se iniciará y estará disponible en `http://localhost:5044`.
+    La API se iniciará y estará disponible en `http://localhost:5000`.
 
 3.  **Ejecutar Pruebas**:
     Navega al directorio del proyecto de pruebas y ejecuta los tests:
