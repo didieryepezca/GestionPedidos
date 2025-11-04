@@ -78,7 +78,7 @@ Sigue estos pasos para ejecutar la solución completa en tu entorno local.
     ```
 
 4.  **Probar la Funcionalidad**:
-    - Abre tu navegador y ve a la interfaz de Swagger UI: `http://localhost:5044/swagger`.
+    - Abre tu navegador y ve a la interfaz de Swagger UI: `http://localhost:5000/swagger`.
     - Utiliza el endpoint `POST /api/Orders` para crear un nuevo pedido. Envía un cuerpo JSON con los detalles del pedido.
     - Tras crear el pedido, la aplicación publicará un evento en RabbitMQ.
     - El servicio en segundo plano procesará el evento y enviará un correo de confirmación.
