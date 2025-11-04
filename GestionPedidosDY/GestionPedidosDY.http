@@ -1,0 +1,6 @@
+@GestionPedidosDY_HostAddress = http://localhost:5044
+
+GET {{GestionPedidosDY_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

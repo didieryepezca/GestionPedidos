@@ -1,0 +1,44 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio temporary files
+.vs/
+.vscode/
+
+# Rider temporary files
+.idea/
+
+# Log files
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Local configuration files
+appsettings.Development.json
+
+# Environment files
+.env
+
+# Docker files
+**/[Dd]ockerfile.user
+
+# Secrets
+secrets.json
